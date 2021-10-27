@@ -7,34 +7,61 @@ html {
 
 body {
     color: #000;
+    font-size: 2rem;
+    margin:0;
+    text-align: center;
 }
 
 
 
 header {
     background-color:   DeepSkyBlue;
+    border: 10px solid Orange;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    /*moves items along Main Axis*/
 }
 
 
 
 main {
     background-color:     DarkBlue;
+     border: 10px solid Orange;
+     padding:50px;
+     margin: 50px;
+     display:flex;
+     justify-content:space-around;
 }
 
 
 
 footer {
     background-color:   DeepSkyBlue;
+     border: 10px solid Orange;
+     margin:50px;
+     padding:50px;
 }
 
 
 
 section {
-    background-color: yellow;    
+    background-color: yellow;
+    margin:25px;
+    width:75vw;
+    display:flex; 
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 
 
 aside {
     background-color: lightGreen;
+    margin:20px;
+    padding:30px;
 }
